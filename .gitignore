@@ -1,0 +1,90 @@
+# ====================
+# دیتابیس (خیلی مهم!)
+# ====================
+*.db
+*.sqlite
+*.sqlite3
+booking.db
+database.db
+db.sqlite3
+
+# ====================
+# فایل‌های کامپایل شده پایتون
+# ====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.dll
+*.dylib
+
+# ====================
+# محیط مجازی
+# ====================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*
+
+# ====================
+# فایل‌های محیطی و اطلاعات حساس
+# ====================
+.env
+.env.local
+.env.production
+*.key
+*.pem
+*.crt
+*.p12
+secrets.json
+config.local.json
+credentials.json
+
+# ====================
+# فایل‌های خروجی گزارشات
+# ====================
+reports/output/
+reports/output/*
+*.pdf
+!assets/**/*.pdf
+
+# ====================
+# فایل‌های لاگ
+# ====================
+*.log
+logs/
+*.logs
+
+# ====================
+# فایل‌های سیستمی
+# ====================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.temp
+.cache/
+
+# ====================
+# فایل‌های IDE
+# ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.iml
+
+# ====================
+# فایل‌های پوشه assets (فقط تصاویر موقتی)
+# ====================
+assets/profile_pics/temp/
+assets/profile_pics/*_temp.*
